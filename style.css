@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+.cards{
+    width: 375px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    position: relative;
+    top: 14px;
+    left: 30px;
+}
+
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 27px;
+    padding-left: 27px;
+    padding-bottom: 25px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 22px;
+}
+p{
+    color: white;
+    opacity: hsla(0, 0%, 100%, 0.75);
+    width: 205px;
+    text-align: justify;
+    padding-left: 28px;
+    font-size: 13px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.borda{
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 120px;
+    height: 33px;
+    background: white;
+    position: relative;
+    top: 28px;
+    left: 25px;
+}
+    
+.rodape{
+    padding-bottom: 42px;
+    padding-top: 2px;
+    padding-left: 52px;
+    position: relative;
+    z-index: 1;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#rodape-1{
+    color: hsl(31, 77%, 52%);
+}
+
+#rodape-2{
+    color: hsl(184, 100%, 22%);;
+}
+
+#rodape-3{
+    color: hsl(179, 100%, 13%);
+}
+
+.card-1{
+    background-color: hsl(31, 77%, 52%);
+    width: 258px;
+    border-radius: 8px 8px 0px 0px;
+
+}
+
+.card-2{
+    background-color: hsl(184, 100%, 22%);
+    width: 258px;
+}
+
+.card-3{
+    background-color: hsl(179, 100%, 13%);
+    width: 258px;
+    border-radius: 0px 0px 8px 8px;
+}
