@@ -96,3 +96,42 @@ p{
     width: 258px;
     border-radius: 0px 0px 8px 8px;
 }
+
+
+@media (min-width: 1440px){
+  
+    .cards{
+        width: 375px;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+            
+    }
+    .card-1{
+        background-color: hsl(31, 77%, 52%);
+        width: 258px;
+        border-radius: 8px 0px 0px 8px;
+    
+    }
+    
+    .card-2{
+        background-color: hsl(184, 100%, 22%);
+        width: 258px;
+    }
+    
+    .card-3{
+        background-color: hsl(179, 100%, 13%);
+        width: 258px;
+        border-radius: 0px 8px 8px 0px;
+    }
+
+    p{
+        color: white;
+        width: 205px;
+        text-align: justify;
+        padding-left: 28px;
+        font-size: 13px;
+        font-family: 'Lexend Deca', sans-serif;
+        padding-right: 20px;
+    }
+}
